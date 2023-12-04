@@ -12,6 +12,8 @@
 
 body {
   font-family: var(--text-font-family);
+  color: var(--SLATE);
+  background-color: var(--WHITE);
 }
 
 .link {
@@ -32,6 +34,7 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -44,7 +47,7 @@ body {
 }
 
 .nav-links:hover,
-.nav-links :focus {
+.nav-links:focus {
   color: var(--OCEAN);
 }
 
@@ -54,11 +57,13 @@ body {
   font-style: normal;
   line-height: 150%;
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
 .address-list {
   text-decoration: none;
   list-style: none;
+  font-style: normal;
 }
 
 .address:hover,
@@ -130,6 +135,10 @@ body {
   background-color: var(--CLOUD);
 }
 
+.team-list {
+  background-color: var(--WHITE);
+}
+
 .team-title {
   color: var(--NAVY-BLUE);
   background-color: var(--WHITE);
@@ -186,6 +195,7 @@ body {
 }
 
 .list-buttons {
+  font-family: var(--text-font-family);
   list-style: none;
 }
 
@@ -220,6 +230,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .main-paragraph {
@@ -228,4 +240,6 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  list-style: none;
+  text-decoration: none;
 }
