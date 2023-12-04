@@ -131,6 +131,10 @@ body {
   text-transform: capitalize;
 }
 
+.people {
+  background-color: var(--WHITE);
+}
+
 .team-section {
   background-color: var(--CLOUD);
 }
@@ -175,7 +179,7 @@ body {
   color: var(--CLOUD);
 }
 
-.logo-footer {
+.logo-footer-link {
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
