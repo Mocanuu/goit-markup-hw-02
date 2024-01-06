@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-.nav-links {
+.link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
@@ -46,12 +46,16 @@ body {
   text-decoration: none;
 }
 
-.nav-links:hover,
-.nav-links:focus {
+.link:hover,
+.link:focus {
   color: var(--OCEAN);
 }
 
-.address {
+.address-title {
+  font-style: normal;
+}
+
+.address-link {
   color: var(--SLATE);
   font-size: 16px;
   font-style: normal;
@@ -103,7 +107,11 @@ body {
 
 .order-service-button:hover,
 .order-service-button:focus {
-  color: var(--OCEAN);
+  background-color: var(--OCEAN);
+}
+
+.four-list {
+  list-style: none;
 }
 
 .key-words {
@@ -121,6 +129,10 @@ body {
   letter-spacing: 0.32px;
 }
 
+.activ-list {
+  list-style: none;
+}
+
 .activity-section {
   color: var(--NAVY-BLUE);
   text-align: center;
@@ -135,8 +147,9 @@ body {
   background-color: var(--WHITE);
 }
 
-.team-section {
+.team-section-list {
   background-color: var(--CLOUD);
+  list-style: none;
 }
 
 .team-list {
