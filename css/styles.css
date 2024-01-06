@@ -16,14 +16,14 @@ body {
   background-color: var(--WHITE);
 }
 
-.link {
+.logo-link {
   font-family: var(--logo-font-family);
   color: var(--IRIS);
-  width: 71px;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
+  width: 44px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -34,9 +34,10 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  width: 71px;
 }
 
 .list {
@@ -44,7 +45,7 @@ body {
   text-decoration: none;
 }
 
-.list-link-link {
+.link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
@@ -53,8 +54,8 @@ body {
   text-decoration: none;
 }
 
-.list-link-link:hover,
-.list-link-link:focus {
+.link:hover,
+.link:focus {
   color: var(--OCEAN);
 }
 
