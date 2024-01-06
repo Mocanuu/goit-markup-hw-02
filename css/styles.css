@@ -118,7 +118,9 @@ body {
   cursor: pointer;
 }
 
-.order-service-button:hover,
+.order-service-button:hover {
+  color: var(--OCEAN);
+}
 .order-service-button:focus {
   color: var(--OCEAN);
 }
