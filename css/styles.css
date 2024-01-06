@@ -46,6 +46,10 @@ body {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .list-link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
