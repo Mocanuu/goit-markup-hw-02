@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.studio-word {
+.studio-word-link {
   color: var(--NAVY-BLUE);
   font-family: Raleway;
   font-size: 18px;
@@ -38,6 +38,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   width: 71px;
+  text-decoration: none;
 }
 
 .list {
@@ -45,7 +46,7 @@ body {
   text-decoration: none;
 }
 
-.link {
+.list-link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
@@ -54,8 +55,8 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.list-link:hover,
+.list-link:focus {
   color: var(--OCEAN);
 }
 
