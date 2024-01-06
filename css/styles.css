@@ -46,6 +46,15 @@ body {
   text-decoration: none;
 }
 
+.header {
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--CORNFLOWER);
+  background: var(--WHITE);
+  display: flex;
+}
+
 .link {
   text-decoration: none;
 }
