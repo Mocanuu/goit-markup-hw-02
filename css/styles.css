@@ -30,6 +30,13 @@ body {
 
 .studio-word {
   color: var(--NAVY-BLUE);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .list {
@@ -70,12 +77,12 @@ body {
   font-style: normal;
 }
 
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--OCEAN);
 }
 
-.hero-section {
+.hero-section-list {
   background-color: var(--NAVY-BLUE);
 }
 
@@ -188,7 +195,7 @@ body {
   background-color: var(--NAVY-BLUE);
 }
 
-.studio-word-footer {
+.studio-word-footer-link {
   color: var(--CLOUD);
 }
 
