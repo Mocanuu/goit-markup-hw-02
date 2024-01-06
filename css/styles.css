@@ -44,7 +44,7 @@ body {
   text-decoration: none;
 }
 
-.link-list {
+.list-link-link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
@@ -53,8 +53,8 @@ body {
   text-decoration: none;
 }
 
-.link-list:hover,
-.link-list:focus {
+.list-link-link:hover,
+.list-link-link:focus {
   color: var(--OCEAN);
 }
 
