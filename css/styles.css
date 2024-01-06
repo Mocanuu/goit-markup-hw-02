@@ -14,6 +14,12 @@ body {
   font-family: var(--text-font-family);
   color: var(--SLATE);
   background-color: var(--WHITE);
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .logo-link {
@@ -44,15 +50,6 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
-}
-
-.header {
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--CORNFLOWER);
-  background: var(--WHITE);
-  display: flex;
 }
 
 .link {
