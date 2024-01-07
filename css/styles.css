@@ -16,6 +16,15 @@ body {
   background-color: var(--WHITE);
 }
 
+.header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .logo-link {
   font-family: var(--logo-font-family);
   color: var(--IRIS);
@@ -90,6 +99,9 @@ body {
 
 .hero-section-list {
   background-color: var(--NAVY-BLUE);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 
 .title {
@@ -119,14 +131,16 @@ body {
 }
 
 .order-service-button:hover {
-  color: var(--OCEAN);
+  background-color: #404bbf;
 }
 .order-service-button:focus {
-  color: var(--OCEAN);
+  background-color: #404bbf;
 }
 
 .four-list {
   list-style: none;
+  width: 1440px;
+  height: 2592px;
 }
 
 .key-words {
@@ -146,6 +160,8 @@ body {
 
 .activ-list {
   list-style: none;
+  width: 1440px;
+  height: 2592px;
 }
 
 .activity-section {
@@ -165,6 +181,9 @@ body {
 .team-section-list {
   background-color: var(--CLOUD);
   list-style: none;
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
 }
 
 .team-list {
@@ -201,6 +220,9 @@ body {
 
 .footer-section {
   background-color: var(--NAVY-BLUE);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
 
 .studio-word-footer-link {
