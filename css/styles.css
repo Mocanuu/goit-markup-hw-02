@@ -107,6 +107,7 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .order-service-button:hover {
@@ -156,6 +157,7 @@ body {
 .team-section-list {
   background-color: var(--CLOUD);
   list-style: none;
+  text-align: center;
 }
 
 .team-list {
@@ -220,12 +222,14 @@ body {
 
 .nav-button {
   color: var(--IRIS);
+  background-color: var(--CLOUD);
   font-family: var(--text-font-family);
   border: 1px solid var(--CORNFLOWER);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .nav-button:hover {
